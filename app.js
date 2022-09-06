@@ -7,7 +7,7 @@ const app = express()
 //setting view engine to ejs
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true}))
-app.set("view engine", "ejs");
+app.set("view engine", 'ejs');
 
 
 
